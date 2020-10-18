@@ -7,15 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F7242A3F30D84269B6B6F7A /* Pods_Nhap_tich_Duc_Einbuegerungstest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A593F826CE3CE18E39275C0 /* Pods_Nhap_tich_Duc_Einbuegerungstest.framework */; };
+		D604D296228827E100CB2320 /* InfoTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D604D295228827E100CB2320 /* InfoTestVC.swift */; };
+		D604D298228827FC00CB2320 /* InfoCondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D604D297228827FC00CB2320 /* InfoCondVC.swift */; };
+		D604D29B2288657300CB2320 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D604D29A2288657300CB2320 /* GoogleService-Info.plist */; };
+		D611E1C1222152310045AC93 /* fmdb in Resources */ = {isa = PBXBuildFile; fileRef = D611E1C0222152310045AC93 /* fmdb */; };
+		D611E1C8222154F90045AC93 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D611E1C6222154F90045AC93 /* libsqlite3.0.tbd */; };
+		D611E1C9222154F90045AC93 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D611E1C7222154F90045AC93 /* libsqlite3.tbd */; };
+		D668548622259A06008F9848 /* UnitSelectorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D668548522259A06008F9848 /* UnitSelectorVC.swift */; };
+		D668548C2226632C008F9848 /* GeneralQuestionWithImgVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D668548B2226632C008F9848 /* GeneralQuestionWithImgVC.swift */; };
+		D6A4BE2A221EED6A00AB74C1 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A4BE29221EED6A00AB74C1 /* Question.swift */; };
+		D6B33AC5222007B8007AAA69 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B33AC4222007B8007AAA69 /* DBHelper.swift */; };
+		D6C213D82220C4FE00C0A03B /* einbuergerung.db in Resources */ = {isa = PBXBuildFile; fileRef = D6C213D72220C4FE00C0A03B /* einbuergerung.db */; };
+		D6C213E2222126ED00C0A03B /* TestResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C213E1222126ED00C0A03B /* TestResultViewController.swift */; };
+		D6C22C122221E1010072B2F6 /* TestResultSb.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C22C112221E1010072B2F6 /* TestResultSb.storyboard */; };
 		D6C59695221CF75500BFFBB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C59694221CF75500BFFBB4 /* AppDelegate.swift */; };
 		D6C59697221CF75500BFFBB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C59696221CF75500BFFBB4 /* ViewController.swift */; };
-		D6C5969A221CF75500BFFBB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C59698221CF75500BFFBB4 /* Main.storyboard */; };
+		D6C5969A221CF75500BFFBB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C59698221CF75500BFFBB4 /* Main.storyboard */; settings = {ASSET_TAGS = (2, ); }; };
 		D6C5969D221CF75500BFFBB4 /* Nhap_tich_Duc_Einbuegerungstest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D6C5969B221CF75500BFFBB4 /* Nhap_tich_Duc_Einbuegerungstest.xcdatamodeld */; };
 		D6C5969F221CF75600BFFBB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C5969E221CF75600BFFBB4 /* Assets.xcassets */; };
 		D6C596A2221CF75600BFFBB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C596A0221CF75600BFFBB4 /* LaunchScreen.storyboard */; };
+		D6C596AA221D068300BFFBB4 /* GeneralQuestionSb.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C596A9221D068300BFFBB4 /* GeneralQuestionSb.storyboard */; };
+		D6C596AC221D06C700BFFBB4 /* GeneralQuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C596AB221D06C700BFFBB4 /* GeneralQuestionVC.swift */; };
+		D6C68B372286DC94009DEF57 /* GeneralQuestionWithImgSb.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C68B362286DC93009DEF57 /* GeneralQuestionWithImgSb.storyboard */; };
+		D6D02F2A22875A8A005CBFF6 /* StatesQuestionSb.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D02F2922875A8A005CBFF6 /* StatesQuestionSb.storyboard */; };
+		D6D02F2C22875A99005CBFF6 /* StatesQuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D02F2B22875A99005CBFF6 /* StatesQuestionVC.swift */; };
+		D6D02F2E22875AA4005CBFF6 /* StatesSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D02F2D22875AA4005CBFF6 /* StatesSelector.swift */; };
+		D6ECB361222212F5005EE8B5 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6ECB357222212F4005EE8B5 /* FMDatabasePool.m */; };
+		D6ECB362222212F5005EE8B5 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D6ECB358222212F5005EE8B5 /* FMDatabaseQueue.m */; };
+		D6ECB363222212F5005EE8B5 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D6ECB359222212F5005EE8B5 /* FMResultSet.m */; };
+		D6ECB364222212F5005EE8B5 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D6ECB35A222212F5005EE8B5 /* FMDatabaseAdditions.m */; };
+		D6ECB365222212F5005EE8B5 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = D6ECB35B222212F5005EE8B5 /* FMDatabase.m */; };
+		D6ECB36A222256C0005EE8B5 /* trueans.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6ECB369222256C0005EE8B5 /* trueans.mp3 */; };
+		D6ECB36C222256C8005EE8B5 /* falseans.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6ECB36B222256C8005EE8B5 /* falseans.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A593F826CE3CE18E39275C0 /* Pods_Nhap_tich_Duc_Einbuegerungstest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nhap_tich_Duc_Einbuegerungstest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1E0F06BA2C92F960D718D3 /* Pods-Nhap tich Duc Einbuegerungstest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nhap tich Duc Einbuegerungstest.debug.xcconfig"; path = "Target Support Files/Pods-Nhap tich Duc Einbuegerungstest/Pods-Nhap tich Duc Einbuegerungstest.debug.xcconfig"; sourceTree = "<group>"; };
+		C63EB4BABFD3C3E95DDC19D6 /* Pods-Nhap tich Duc Einbuegerungstest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nhap tich Duc Einbuegerungstest.release.xcconfig"; path = "Target Support Files/Pods-Nhap tich Duc Einbuegerungstest/Pods-Nhap tich Duc Einbuegerungstest.release.xcconfig"; sourceTree = "<group>"; };
+		D604D295228827E100CB2320 /* InfoTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTestVC.swift; sourceTree = "<group>"; };
+		D604D297228827FC00CB2320 /* InfoCondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCondVC.swift; sourceTree = "<group>"; };
+		D604D2992288610200CB2320 /* Nhap tich Duc Einbuegerungstest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Nhap tich Duc Einbuegerungstest.entitlements"; sourceTree = "<group>"; };
+		D604D29A2288657300CB2320 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D611E1C0222152310045AC93 /* fmdb */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fmdb; sourceTree = "<group>"; };
+		D611E1C6222154F90045AC93 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		D611E1C7222154F90045AC93 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D668548522259A06008F9848 /* UnitSelectorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitSelectorVC.swift; sourceTree = "<group>"; };
+		D668548B2226632C008F9848 /* GeneralQuestionWithImgVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralQuestionWithImgVC.swift; sourceTree = "<group>"; };
+		D6A4BE29221EED6A00AB74C1 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		D6B33AC4222007B8007AAA69 /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		D6C213D72220C4FE00C0A03B /* einbuergerung.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = einbuergerung.db; sourceTree = "<group>"; };
+		D6C213E1222126ED00C0A03B /* TestResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultViewController.swift; sourceTree = "<group>"; };
+		D6C22C112221E1010072B2F6 /* TestResultSb.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestResultSb.storyboard; sourceTree = "<group>"; };
 		D6C59691221CF75500BFFBB4 /* Nhap tich Duc Einbuegerungstest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nhap tich Duc Einbuegerungstest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C59694221CF75500BFFBB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6C59696221CF75500BFFBB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +68,19 @@
 		D6C5969E221CF75600BFFBB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6C596A1221CF75600BFFBB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6C596A3221CF75600BFFBB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C596A9221D068300BFFBB4 /* GeneralQuestionSb.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GeneralQuestionSb.storyboard; sourceTree = "<group>"; };
+		D6C596AB221D06C700BFFBB4 /* GeneralQuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralQuestionVC.swift; sourceTree = "<group>"; };
+		D6C68B362286DC93009DEF57 /* GeneralQuestionWithImgSb.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GeneralQuestionWithImgSb.storyboard; sourceTree = "<group>"; };
+		D6D02F2922875A8A005CBFF6 /* StatesQuestionSb.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StatesQuestionSb.storyboard; sourceTree = "<group>"; };
+		D6D02F2B22875A99005CBFF6 /* StatesQuestionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatesQuestionVC.swift; sourceTree = "<group>"; };
+		D6D02F2D22875AA4005CBFF6 /* StatesSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatesSelector.swift; sourceTree = "<group>"; };
+		D6ECB357222212F4005EE8B5 /* FMDatabasePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = "Nhap tich Duc Einbuegerungstest/fmdb/FMDatabasePool.m"; sourceTree = "<group>"; };
+		D6ECB358222212F5005EE8B5 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = "Nhap tich Duc Einbuegerungstest/fmdb/FMDatabaseQueue.m"; sourceTree = "<group>"; };
+		D6ECB359222212F5005EE8B5 /* FMResultSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = "Nhap tich Duc Einbuegerungstest/fmdb/FMResultSet.m"; sourceTree = "<group>"; };
+		D6ECB35A222212F5005EE8B5 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = "Nhap tich Duc Einbuegerungstest/fmdb/FMDatabaseAdditions.m"; sourceTree = "<group>"; };
+		D6ECB35B222212F5005EE8B5 /* FMDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = "Nhap tich Duc Einbuegerungstest/fmdb/FMDatabase.m"; sourceTree = "<group>"; };
+		D6ECB369222256C0005EE8B5 /* trueans.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = trueans.mp3; sourceTree = "<group>"; };
+		D6ECB36B222256C8005EE8B5 /* falseans.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = falseans.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +88,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D611E1C8222154F90045AC93 /* libsqlite3.0.tbd in Frameworks */,
+				D611E1C9222154F90045AC93 /* libsqlite3.tbd in Frameworks */,
+				7F7242A3F30D84269B6B6F7A /* Pods_Nhap_tich_Duc_Einbuegerungstest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D2F615467AF44DAE1CE2344 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F1E0F06BA2C92F960D718D3 /* Pods-Nhap tich Duc Einbuegerungstest.debug.xcconfig */,
+				C63EB4BABFD3C3E95DDC19D6 /* Pods-Nhap tich Duc Einbuegerungstest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D611E1C5222154F90045AC93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D611E1C6222154F90045AC93 /* libsqlite3.0.tbd */,
+				D611E1C7222154F90045AC93 /* libsqlite3.tbd */,
+				6A593F826CE3CE18E39275C0 /* Pods_Nhap_tich_Duc_Einbuegerungstest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6A4BE2B221EED7900AB74C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D6A4BE29221EED6A00AB74C1 /* Question.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D6B33AC222200782007AAA69 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				D6B33AC4222007B8007AAA69 /* DBHelper.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
 		D6C59688221CF75500BFFBB4 = {
 			isa = PBXGroup;
 			children = (
+				D6ECB35B222212F5005EE8B5 /* FMDatabase.m */,
+				D6ECB35A222212F5005EE8B5 /* FMDatabaseAdditions.m */,
+				D6ECB357222212F4005EE8B5 /* FMDatabasePool.m */,
+				D6ECB358222212F5005EE8B5 /* FMDatabaseQueue.m */,
+				D6ECB359222212F5005EE8B5 /* FMResultSet.m */,
+				D6C213D72220C4FE00C0A03B /* einbuergerung.db */,
 				D6C59693221CF75500BFFBB4 /* Nhap tich Duc Einbuegerungstest */,
 				D6C59692221CF75500BFFBB4 /* Products */,
+				D611E1C5222154F90045AC93 /* Frameworks */,
+				3D2F615467AF44DAE1CE2344 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +159,12 @@
 		D6C59693221CF75500BFFBB4 /* Nhap tich Duc Einbuegerungstest */ = {
 			isa = PBXGroup;
 			children = (
+				D604D29A2288657300CB2320 /* GoogleService-Info.plist */,
+				D604D2992288610200CB2320 /* Nhap tich Duc Einbuegerungstest.entitlements */,
+				D6ECB368222256A5005EE8B5 /* Sound Files */,
+				D611E1C0222152310045AC93 /* fmdb */,
+				D6B33AC222200782007AAA69 /* Database */,
+				D6A4BE2B221EED7900AB74C1 /* Models */,
 				D6C59694221CF75500BFFBB4 /* AppDelegate.swift */,
 				D6C59696221CF75500BFFBB4 /* ViewController.swift */,
 				D6C59698221CF75500BFFBB4 /* Main.storyboard */,
@@ -63,8 +172,29 @@
 				D6C596A0221CF75600BFFBB4 /* LaunchScreen.storyboard */,
 				D6C596A3221CF75600BFFBB4 /* Info.plist */,
 				D6C5969B221CF75500BFFBB4 /* Nhap_tich_Duc_Einbuegerungstest.xcdatamodeld */,
+				D6C596A9221D068300BFFBB4 /* GeneralQuestionSb.storyboard */,
+				D6C596AB221D06C700BFFBB4 /* GeneralQuestionVC.swift */,
+				D6C213E1222126ED00C0A03B /* TestResultViewController.swift */,
+				D6C22C112221E1010072B2F6 /* TestResultSb.storyboard */,
+				D668548522259A06008F9848 /* UnitSelectorVC.swift */,
+				D6D02F2D22875AA4005CBFF6 /* StatesSelector.swift */,
+				D668548B2226632C008F9848 /* GeneralQuestionWithImgVC.swift */,
+				D6C68B362286DC93009DEF57 /* GeneralQuestionWithImgSb.storyboard */,
+				D6D02F2B22875A99005CBFF6 /* StatesQuestionVC.swift */,
+				D6D02F2922875A8A005CBFF6 /* StatesQuestionSb.storyboard */,
+				D604D295228827E100CB2320 /* InfoTestVC.swift */,
+				D604D297228827FC00CB2320 /* InfoCondVC.swift */,
 			);
 			path = "Nhap tich Duc Einbuegerungstest";
+			sourceTree = "<group>";
+		};
+		D6ECB368222256A5005EE8B5 /* Sound Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6ECB36B222256C8005EE8B5 /* falseans.mp3 */,
+				D6ECB369222256C0005EE8B5 /* trueans.mp3 */,
+			);
+			path = "Sound Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6C596A6221CF75600BFFBB4 /* Build configuration list for PBXNativeTarget "Nhap tich Duc Einbuegerungstest" */;
 			buildPhases = (
+				CD695B1322E84DBD84E7F571 /* [CP] Check Pods Manifest.lock */,
 				D6C5968D221CF75500BFFBB4 /* Sources */,
 				D6C5968E221CF75500BFFBB4 /* Frameworks */,
 				D6C5968F221CF75500BFFBB4 /* Resources */,
+				BB36EC5D3537E6FF8663988E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -93,12 +225,24 @@
 		D6C59689221CF75500BFFBB4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					2,
+				);
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Nguyen Quang";
 				TargetAttributes = {
 					D6C59690221CF75500BFFBB4 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -125,21 +269,94 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6ECB36C222256C8005EE8B5 /* falseans.mp3 in Resources */,
+				D6C22C122221E1010072B2F6 /* TestResultSb.storyboard in Resources */,
+				D6D02F2A22875A8A005CBFF6 /* StatesQuestionSb.storyboard in Resources */,
+				D6C68B372286DC94009DEF57 /* GeneralQuestionWithImgSb.storyboard in Resources */,
+				D611E1C1222152310045AC93 /* fmdb in Resources */,
+				D604D29B2288657300CB2320 /* GoogleService-Info.plist in Resources */,
 				D6C596A2221CF75600BFFBB4 /* LaunchScreen.storyboard in Resources */,
+				D6ECB36A222256C0005EE8B5 /* trueans.mp3 in Resources */,
 				D6C5969F221CF75600BFFBB4 /* Assets.xcassets in Resources */,
+				D6C213D82220C4FE00C0A03B /* einbuergerung.db in Resources */,
+				D6C596AA221D068300BFFBB4 /* GeneralQuestionSb.storyboard in Resources */,
 				D6C5969A221CF75500BFFBB4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BB36EC5D3537E6FF8663988E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nhap tich Duc Einbuegerungstest/Pods-Nhap tich Duc Einbuegerungstest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nhap tich Duc Einbuegerungstest/Pods-Nhap tich Duc Einbuegerungstest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD695B1322E84DBD84E7F571 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nhap tich Duc Einbuegerungstest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D6C5968D221CF75500BFFBB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6ECB361222212F5005EE8B5 /* FMDatabasePool.m in Sources */,
+				D6ECB362222212F5005EE8B5 /* FMDatabaseQueue.m in Sources */,
+				D6D02F2C22875A99005CBFF6 /* StatesQuestionVC.swift in Sources */,
+				D6ECB363222212F5005EE8B5 /* FMResultSet.m in Sources */,
+				D6D02F2E22875AA4005CBFF6 /* StatesSelector.swift in Sources */,
+				D6ECB364222212F5005EE8B5 /* FMDatabaseAdditions.m in Sources */,
+				D6ECB365222212F5005EE8B5 /* FMDatabase.m in Sources */,
+				D668548C2226632C008F9848 /* GeneralQuestionWithImgVC.swift in Sources */,
+				D604D296228827E100CB2320 /* InfoTestVC.swift in Sources */,
+				D6A4BE2A221EED6A00AB74C1 /* Question.swift in Sources */,
+				D6B33AC5222007B8007AAA69 /* DBHelper.swift in Sources */,
 				D6C59697221CF75500BFFBB4 /* ViewController.swift in Sources */,
+				D6C213E2222126ED00C0A03B /* TestResultViewController.swift in Sources */,
+				D6C596AC221D06C700BFFBB4 /* GeneralQuestionVC.swift in Sources */,
 				D6C5969D221CF75500BFFBB4 /* Nhap_tich_Duc_Einbuegerungstest.xcdatamodeld in Sources */,
+				D668548622259A06008F9848 /* UnitSelectorVC.swift in Sources */,
+				D604D298228827FC00CB2320 /* InfoCondVC.swift in Sources */,
 				D6C59695221CF75500BFFBB4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +438,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -275,6 +493,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -284,16 +503,75 @@
 		};
 		D6C596A7221CF75600BFFBB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F1E0F06BA2C92F960D718D3 /* Pods-Nhap tich Duc Einbuegerungstest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8HYSHLM47;
 				INFOPLIST_FILE = "Nhap tich Duc Einbuegerungstest/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"GoogleMobileAds\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMobileAds\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"SafariServices\"",
+					"-weak_framework",
+					"\"WebKit\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.quangbruder.Nhap-tich-Duc-Einbuegerungstest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Nhap tich Duc Einbuegerungstest/fmdb/Nhap tich Duc Einbuegerungstest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,16 +579,74 @@
 		};
 		D6C596A8221CF75600BFFBB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C63EB4BABFD3C3E95DDC19D6 /* Pods-Nhap tich Duc Einbuegerungstest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H8HYSHLM47;
 				INFOPLIST_FILE = "Nhap tich Duc Einbuegerungstest/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"GoogleMobileAds\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMobileAds\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"SafariServices\"",
+					"-weak_framework",
+					"\"WebKit\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.quangbruder.Nhap-tich-Duc-Einbuegerungstest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Nhap tich Duc Einbuegerungstest/fmdb/Nhap tich Duc Einbuegerungstest-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

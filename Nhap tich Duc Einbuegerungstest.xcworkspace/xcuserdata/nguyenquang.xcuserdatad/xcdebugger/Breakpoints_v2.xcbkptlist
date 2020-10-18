@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Nhap tich Duc Einbuegerungstest/AppDelegate.swift"
+            timestampString = "579385337.600312"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "persistentContainer"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.NSPersistentContainer in Nhap_tich_Duc_Einbuegerungstest.AppDelegate.persistentContainer.getter : __C.NSPersistentContainer"
+                  moduleName = "Nhap tich Duc Einbuegerungstest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenquang/Library/Autosave%20Information/Nhap%20tich%20Duc%20Einbuegerungstest/Nhap%20tich%20Duc%20Einbuegerungstest/AppDelegate.swift"
+                  timestampString = "579376241.194173"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "71">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.NSPersistentStoreDescription, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 () -&gt; __C.NSPersistentContainer in Nhap_tich_Duc_Einbuegerungstest.AppDelegate.persistentContainer.getter : __C.NSPersistentContainer"
+                  moduleName = "Nhap tich Duc Einbuegerungstest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenquang/Library/Autosave%20Information/Nhap%20tich%20Duc%20Einbuegerungstest/Nhap%20tich%20Duc%20Einbuegerungstest/AppDelegate.swift"
+                  timestampString = "579376241.2006299"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "43">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Nhap tich Duc Einbuegerungstest/GeneralQuestionWithImgVC.swift"
+            timestampString = "579363641.738422"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "setImageButton(btn:btnSrc:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

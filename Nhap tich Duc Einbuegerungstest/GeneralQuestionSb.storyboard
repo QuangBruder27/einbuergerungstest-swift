@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yAh-81-F5V">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--General QuestionVC-->
+        <scene sceneID="w8C-tD-z0j">
+            <objects>
+                <viewController storyboardIdentifier="GeneralQuestionSb" id="yAh-81-F5V" customClass="GeneralQuestionVC" customModule="Nhap_tich_Duc_Einbuegerungstest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zQP-PZ-pzG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="de1" translatesAutoresizingMaskIntoConstraints="NO" id="K5W-dd-Yc8">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="center" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="rWK-ug-0vG" userLabel="Stack View Top">
+                                <rect key="frame" x="0.0" y="20" width="320" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unit 99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1sV-xO-ZTr">
+                                        <rect key="frame" x="0.0" y="5" width="57" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VUL-77-yBg" customClass="GADBannerView">
+                                        <rect key="frame" x="62" y="0.0" width="238" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="1UI-d2-TtF"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63a-4f-xUn">
+                                        <rect key="frame" x="305" y="5" width="15" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PNE-j9-HUr">
+                                <rect key="frame" x="141" y="547.5" width="38" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kpN-6g-FmS" userLabel="Next_Button">
+                                <rect key="frame" x="270" y="518" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="BF0-pb-ZHS"/>
+                                    <constraint firstAttribute="width" constant="50" id="WgK-rB-86T"/>
+                                </constraints>
+                                <state key="normal" image="icon_next"/>
+                                <connections>
+                                    <action selector="loadNextQuestion:" destination="yAh-81-F5V" eventType="touchUpInside" id="Ylo-9n-AsZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mj3-qK-Uz7" userLabel="Back_Button">
+                                <rect key="frame" x="0.0" y="518" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="McK-or-bkY"/>
+                                    <constraint firstAttribute="height" constant="50" id="bVh-2P-Qlo"/>
+                                </constraints>
+                                <state key="normal" image="icon_back"/>
+                                <connections>
+                                    <action selector="exitPressed:" destination="yAh-81-F5V" eventType="touchUpInside" id="aZd-Nv-5tm"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Wgd-V4-gki" userLabel="Stack View Answer">
+                                <rect key="frame" x="0.0" y="110.5" width="320" height="150"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="center" semanticContentAttribute="forceLeftToRight" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="onv-E2-V6F">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal">
+                                            <string key="title">\n A.Man darf Geld annehmen, wenn man dafür einen bestimmten Kandidaten/ eine bestimmte Kandidatin wählt. Người ta được phép nhận tiền khi bầu cử cho một ứng cử viên nào đó \n</string>
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerSelected:" destination="yAh-81-F5V" eventType="touchUpInside" id="VD8-Ya-Ayp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="wMb-0Y-m3C">
+                                        <rect key="frame" x="0.0" y="40" width="320" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="\n B.Nur Personnen, die noch nie im Gefängnis waren, dürfen wählen. Chỉ những người chưa bao giờ ngồi tù mới được đi bầu\n">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerSelected:" destination="yAh-81-F5V" eventType="touchUpInside" id="Nk4-GT-TdQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="m9T-9V-7dh">
+                                        <rect key="frame" x="0.0" y="80" width="320" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal">
+                                            <string key="title">\n C.Der Wähler weder beeinflusst noch zu einer bestimmten Stimmabgabe gezwungen werden und keine Nachteile durch die Wahl haben. Trong bầu cử, cử tri không bị gây ảnh hưởng, không bị bắt bỏ phiếu cho một ai đó và không bị thiệt thòi do bầu cử.\n</string>
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerSelected:" destination="yAh-81-F5V" eventType="touchUpInside" id="8g6-Zq-fvP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="JKB-vb-POa">
+                                        <rect key="frame" x="0.0" y="120" width="320" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                        <state key="normal" title="\n D.Alle wahlberechtigten Personen müssen wählen. Tất cả những ai có quyền bầu cử phải đi bầu\n">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerSelected:" destination="yAh-81-F5V" eventType="touchUpInside" id="qaD-nO-6mi"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qnD-HH-jCO">
+                                <rect key="frame" x="0.0" y="50" width="320" height="60.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="1.Wahlen in Deutschland sind frei. Was bedeutet das? \n Bầu cử ở Đức là tự do. Điều đó có nghĩa là gì?">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="18" name="Arial-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="PNE-j9-HUr" firstAttribute="bottom" secondItem="T6m-KB-yPy" secondAttribute="bottom" id="0AK-VF-cAD"/>
+                            <constraint firstItem="mj3-qK-Uz7" firstAttribute="bottom" secondItem="T6m-KB-yPy" secondAttribute="bottom" id="3eo-Qy-6pz"/>
+                            <constraint firstItem="K5W-dd-Yc8" firstAttribute="trailing" secondItem="T6m-KB-yPy" secondAttribute="trailing" id="BfT-G2-ri5"/>
+                            <constraint firstItem="qnD-HH-jCO" firstAttribute="leading" secondItem="T6m-KB-yPy" secondAttribute="leading" id="EEn-QK-l9I"/>
+                            <constraint firstItem="K5W-dd-Yc8" firstAttribute="leading" secondItem="T6m-KB-yPy" secondAttribute="leading" id="Jwu-Wl-Q8v"/>
+                            <constraint firstItem="K5W-dd-Yc8" firstAttribute="leading" secondItem="mj3-qK-Uz7" secondAttribute="trailing" constant="-50" id="KMR-oz-FfW"/>
+                            <constraint firstItem="PNE-j9-HUr" firstAttribute="centerX" secondItem="zQP-PZ-pzG" secondAttribute="centerX" id="Qyk-HX-cha"/>
+                            <constraint firstItem="rWK-ug-0vG" firstAttribute="leading" secondItem="zQP-PZ-pzG" secondAttribute="leading" id="UoI-7d-ej4"/>
+                            <constraint firstItem="mj3-qK-Uz7" firstAttribute="leading" secondItem="T6m-KB-yPy" secondAttribute="leading" id="Zbp-7O-6Si"/>
+                            <constraint firstItem="T6m-KB-yPy" firstAttribute="bottom" secondItem="kpN-6g-FmS" secondAttribute="bottom" id="cPE-Xy-EOk"/>
+                            <constraint firstItem="qnD-HH-jCO" firstAttribute="top" secondItem="rWK-ug-0vG" secondAttribute="bottom" id="dYy-q4-sNC"/>
+                            <constraint firstItem="K5W-dd-Yc8" firstAttribute="bottom" secondItem="T6m-KB-yPy" secondAttribute="bottom" id="eTN-vG-ErW"/>
+                            <constraint firstItem="rWK-ug-0vG" firstAttribute="top" secondItem="T6m-KB-yPy" secondAttribute="top" id="fXf-Ni-99i"/>
+                            <constraint firstItem="rWK-ug-0vG" firstAttribute="trailing" secondItem="T6m-KB-yPy" secondAttribute="trailing" id="hMJ-Df-Ydm"/>
+                            <constraint firstItem="qnD-HH-jCO" firstAttribute="trailing" secondItem="T6m-KB-yPy" secondAttribute="trailing" id="hnS-Ku-EgA"/>
+                            <constraint firstItem="Wgd-V4-gki" firstAttribute="top" secondItem="qnD-HH-jCO" secondAttribute="bottom" id="hu0-1k-zEM"/>
+                            <constraint firstItem="K5W-dd-Yc8" firstAttribute="top" secondItem="T6m-KB-yPy" secondAttribute="top" id="iMa-oB-ks6"/>
+                            <constraint firstItem="Wgd-V4-gki" firstAttribute="leading" secondItem="T6m-KB-yPy" secondAttribute="leading" id="nSU-Cr-Ayn"/>
+                            <constraint firstItem="T6m-KB-yPy" firstAttribute="trailing" secondItem="kpN-6g-FmS" secondAttribute="trailing" id="o7p-T5-wzd"/>
+                            <constraint firstAttribute="trailing" secondItem="Wgd-V4-gki" secondAttribute="trailing" id="t8b-2t-E8e"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="T6m-KB-yPy"/>
+                    </view>
+                    <connections>
+                        <outlet property="bannerViewGQ1" destination="VUL-77-yBg" id="ugE-ye-vf0"/>
+                        <outlet property="btnA" destination="onv-E2-V6F" id="wRz-L1-UWy"/>
+                        <outlet property="btnB" destination="wMb-0Y-m3C" id="OcL-FJ-eko"/>
+                        <outlet property="btnC" destination="m9T-9V-7dh" id="TIU-Ml-GFq"/>
+                        <outlet property="btnD" destination="JKB-vb-POa" id="l7v-UL-4Mj"/>
+                        <outlet property="questionText" destination="qnD-HH-jCO" id="I9f-bo-rGw"/>
+                        <outlet property="scoreDisplay" destination="63a-4f-xUn" id="ykO-ib-cQb"/>
+                        <outlet property="timeDisplay" destination="PNE-j9-HUr" id="bcu-NS-P8K"/>
+                        <outlet property="unitDisplay" destination="1sV-xO-ZTr" id="Nbp-Ks-4xe"/>
+                        <segue destination="gx8-uO-UJd" kind="show" identifier="GeneralQuestiontoResult" id="aRq-M5-m5k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ONg-wV-rz2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3.75" y="167.95774647887325"/>
+        </scene>
+        <!--TestResultSb-->
+        <scene sceneID="Npv-uS-HVb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TestResultSb" referencedIdentifier="TestResultSb" id="gx8-uO-UJd" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="icC-MR-MwC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="561" y="32"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="de1" width="300" height="168"/>
+        <image name="icon_back" width="128" height="128"/>
+        <image name="icon_next" width="64" height="64"/>
+    </resources>
+</document>

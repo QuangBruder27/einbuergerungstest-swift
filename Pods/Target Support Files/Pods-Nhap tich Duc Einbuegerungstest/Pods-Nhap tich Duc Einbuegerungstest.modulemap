@@ -1,0 +1,6 @@
+framework module Pods_Nhap_tich_Duc_Einbuegerungstest {
+  umbrella header "Pods-Nhap tich Duc Einbuegerungstest-umbrella.h"
+
+  export *
+  module * { export * }
+}

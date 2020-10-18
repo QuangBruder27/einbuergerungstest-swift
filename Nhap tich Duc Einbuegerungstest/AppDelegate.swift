@@ -8,15 +8,25 @@
 
 import UIKit
 import CoreData
+import Firebase
+import GoogleMobileAds
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Use Firebase library to configure APIs.
+        FirebaseApp.configure()
+
+        // Initialize the Google Mobile Ads SDK.
+        // Sample AdMob app ID: ca-app-pub-3940256099942544~1458002511
+        // real app ID: ca-app-pub-2440183521770590~7498417501
+        
+        GADMobileAds.configure(withApplicationID: "ca-app-pub-2440183521770590~7498417501")
+        
         return true
     }
 

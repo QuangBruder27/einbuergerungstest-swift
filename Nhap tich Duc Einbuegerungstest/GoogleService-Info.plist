@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>976054167212-nhl6ddotrjvcughrnfb39mrkbj6cupu3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.976054167212-nhl6ddotrjvcughrnfb39mrkbj6cupu3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCoUh0_IEfTL9eOkrNWwt5MlAJrgPWn3-g</string>
+	<key>GCM_SENDER_ID</key>
+	<string>976054167212</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.quangbruder.Nhap-tich-Duc-Einbuegerungstest</string>
+	<key>PROJECT_ID</key>
+	<string>nhap-tich-duc-ios</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nhap-tich-duc-ios.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:976054167212:ios:954743b263acda89</string>
+	<key>DATABASE_URL</key>
+	<string>https://nhap-tich-duc-ios.firebaseio.com</string>
+</dict>
+</plist>

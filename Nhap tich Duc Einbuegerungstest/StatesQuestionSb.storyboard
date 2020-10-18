@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3Cx-Ko-Aoo">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--States QuestionVC-->
+        <scene sceneID="873-uJ-fha">
+            <objects>
+                <viewController storyboardIdentifier="StatesQuestionSb" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3Cx-Ko-Aoo" customClass="StatesQuestionVC" customModule="Nhap_tich_Duc_Einbuegerungstest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CMr-Vf-f9r">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="center" alignment="center" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="cU2-t7-eHA" userLabel="Stack View Top">
+                                <rect key="frame" x="0.0" y="20" width="375" height="20.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Unit 99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uTB-UC-G4I">
+                                        <rect key="frame" x="0.0" y="0.0" width="260" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="0 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F7X-lm-C5c">
+                                        <rect key="frame" x="360" y="0.0" width="15" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wEY-Dc-KKS" userLabel="Next_Button">
+                                <rect key="frame" x="325" y="617" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="9cv-RV-gxp"/>
+                                    <constraint firstAttribute="height" constant="50" id="A6u-k7-Zsq"/>
+                                </constraints>
+                                <state key="normal" image="icon_next"/>
+                                <connections>
+                                    <action selector="loadNextQuestion:" destination="3Cx-Ko-Aoo" eventType="touchUpInside" id="suc-iA-MxI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fyj-Ju-iod" userLabel="Back_Button">
+                                <rect key="frame" x="0.0" y="617" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="DBB-uk-WWc"/>
+                                    <constraint firstAttribute="height" constant="50" id="LFn-NH-Sem"/>
+                                </constraints>
+                                <state key="normal" image="icon_back"/>
+                                <connections>
+                                    <action selector="exitPressed:" destination="3Cx-Ko-Aoo" eventType="touchUpInside" id="dma-x5-J2R"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xE3-jv-1do" userLabel="Stack View Answer">
+                                <rect key="frame" x="0.0" y="332" width="375" height="150"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="center" semanticContentAttribute="forceLeftToRight" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="F1Q-dx-QY1">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal">
+                                            <string key="title">\n A.Man darf Geld annehmen, wenn man dafür einen bestimmten Kandidaten/ eine bestimmte Kandidatin wählt. Người ta được phép nhận tiền khi bầu cử cho một ứng cử viên nào đó \n</string>
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerSelected:" destination="3Cx-Ko-Aoo" eventType="touchUpInside" id="kW3-PY-CI9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ZlF-uH-6fa">
+                                        <rect key="frame" x="0.0" y="40" width="375" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="\n B.Nur Personnen, die noch nie im Gefängnis waren, dürfen wählen. Chỉ những người chưa bao giờ ngồi tù mới được đi bầu\n">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerSelected:" destination="3Cx-Ko-Aoo" eventType="touchUpInside" id="GQw-Tb-C2Y"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="xPp-Jp-NuR">
+                                        <rect key="frame" x="0.0" y="80" width="375" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <state key="normal">
+                                            <string key="title">\n C.Der Wähler weder beeinflusst noch zu einer bestimmten Stimmabgabe gezwungen werden und keine Nachteile durch die Wahl haben. Trong bầu cử, cử tri không bị gây ảnh hưởng, không bị bắt bỏ phiếu cho một ai đó và không bị thiệt thòi do bầu cử.\n</string>
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerSelected:" destination="3Cx-Ko-Aoo" eventType="touchUpInside" id="skJ-em-IpE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="2OE-Bs-aUC">
+                                        <rect key="frame" x="0.0" y="120" width="375" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="\n D.Alle wahlberechtigten Personen müssen wählen. Tất cả những ai có quyền bầu cử phải đi bầu\n">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="answerSelected:" destination="3Cx-Ko-Aoo" eventType="touchUpInside" id="SyZ-Kq-1uw"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Odi-Vo-e8p" userLabel="Stack View Img States">
+                                <rect key="frame" x="0.0" y="45.5" width="375" height="74"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b_meck" translatesAutoresizingMaskIntoConstraints="NO" id="f89-LR-L2T">
+                                        <rect key="frame" x="0.0" y="0.0" width="90" height="65"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b_niedersa" translatesAutoresizingMaskIntoConstraints="NO" id="eeJ-Iy-YRY">
+                                        <rect key="frame" x="95" y="0.0" width="90" height="69"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b_nrw" translatesAutoresizingMaskIntoConstraints="NO" id="wML-Zu-QGK">
+                                        <rect key="frame" x="190" y="0.0" width="90" height="69"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b_saarl" translatesAutoresizingMaskIntoConstraints="NO" id="eYm-0T-9lE">
+                                        <rect key="frame" x="285" y="0.0" width="90" height="74"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxi-R3-rn1">
+                                <rect key="frame" x="168.5" y="646.5" width="38" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="m448" translatesAutoresizingMaskIntoConstraints="NO" id="tlb-AP-0NX">
+                                <rect key="frame" x="0.0" y="119.5" width="375" height="150"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mGl-y5-Pv8">
+                                <rect key="frame" x="0.0" y="271.5" width="375" height="60.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="1.Wahlen in Deutschland sind frei. Was bedeutet das? \n Bầu cử ở Đức là tự do. Điều đó có nghĩa là gì?">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="18" name="Arial-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="tlb-AP-0NX" firstAttribute="leading" secondItem="wZm-UK-q8z" secondAttribute="leading" id="0gw-Ah-0s6"/>
+                            <constraint firstItem="wZm-UK-q8z" firstAttribute="trailing" secondItem="Odi-Vo-e8p" secondAttribute="trailing" id="2MZ-ol-geK"/>
+                            <constraint firstItem="fyj-Ju-iod" firstAttribute="leading" secondItem="wZm-UK-q8z" secondAttribute="leading" id="5rm-Oo-FtZ"/>
+                            <constraint firstItem="cU2-t7-eHA" firstAttribute="leading" secondItem="CMr-Vf-f9r" secondAttribute="leading" id="Ebd-bH-1OS"/>
+                            <constraint firstItem="xE3-jv-1do" firstAttribute="leading" secondItem="wZm-UK-q8z" secondAttribute="leading" id="IuS-2n-POC"/>
+                            <constraint firstItem="mGl-y5-Pv8" firstAttribute="top" secondItem="tlb-AP-0NX" secondAttribute="bottom" constant="2" id="Mds-Ii-Exd"/>
+                            <constraint firstItem="tlb-AP-0NX" firstAttribute="trailing" secondItem="wZm-UK-q8z" secondAttribute="trailing" id="N0x-WS-LVj"/>
+                            <constraint firstAttribute="trailing" secondItem="xE3-jv-1do" secondAttribute="trailing" id="OOJ-u6-hvG"/>
+                            <constraint firstItem="Odi-Vo-e8p" firstAttribute="top" secondItem="cU2-t7-eHA" secondAttribute="bottom" constant="5" id="QZV-tL-3ve"/>
+                            <constraint firstItem="xE3-jv-1do" firstAttribute="top" secondItem="mGl-y5-Pv8" secondAttribute="bottom" id="R6x-7L-jJe"/>
+                            <constraint firstItem="wZm-UK-q8z" firstAttribute="trailing" secondItem="wEY-Dc-KKS" secondAttribute="trailing" id="S1h-c7-JNU"/>
+                            <constraint firstItem="fyj-Ju-iod" firstAttribute="bottom" secondItem="wZm-UK-q8z" secondAttribute="bottom" id="THu-AI-NNU"/>
+                            <constraint firstItem="cxi-R3-rn1" firstAttribute="bottom" secondItem="wZm-UK-q8z" secondAttribute="bottom" id="VwL-Jk-NWd"/>
+                            <constraint firstItem="Odi-Vo-e8p" firstAttribute="leading" secondItem="wZm-UK-q8z" secondAttribute="leading" id="WMv-QO-iwe"/>
+                            <constraint firstItem="tlb-AP-0NX" firstAttribute="top" secondItem="Odi-Vo-e8p" secondAttribute="bottom" id="XVa-58-Drd"/>
+                            <constraint firstItem="cU2-t7-eHA" firstAttribute="trailing" secondItem="wZm-UK-q8z" secondAttribute="trailing" id="gEc-rb-pvY"/>
+                            <constraint firstItem="mGl-y5-Pv8" firstAttribute="trailing" secondItem="wZm-UK-q8z" secondAttribute="trailing" id="gGh-vh-3j2"/>
+                            <constraint firstItem="cxi-R3-rn1" firstAttribute="centerX" secondItem="CMr-Vf-f9r" secondAttribute="centerX" id="q3S-Es-QRV"/>
+                            <constraint firstItem="mGl-y5-Pv8" firstAttribute="leading" secondItem="wZm-UK-q8z" secondAttribute="leading" id="rHU-t9-xPO"/>
+                            <constraint firstItem="wZm-UK-q8z" firstAttribute="bottom" secondItem="wEY-Dc-KKS" secondAttribute="bottom" id="vfn-s0-h1Y"/>
+                            <constraint firstItem="cU2-t7-eHA" firstAttribute="top" secondItem="wZm-UK-q8z" secondAttribute="top" id="zAM-gL-fea"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wZm-UK-q8z"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnA" destination="F1Q-dx-QY1" id="4Ej-E8-vST"/>
+                        <outlet property="btnB" destination="ZlF-uH-6fa" id="xpc-P0-Yd7"/>
+                        <outlet property="btnC" destination="xPp-Jp-NuR" id="wMr-xl-X3q"/>
+                        <outlet property="btnD" destination="2OE-Bs-aUC" id="ci0-4l-LRO"/>
+                        <outlet property="imga" destination="f89-LR-L2T" id="HJt-FM-luV"/>
+                        <outlet property="imgb" destination="eeJ-Iy-YRY" id="p1H-ki-eWo"/>
+                        <outlet property="imgc" destination="wML-Zu-QGK" id="aUp-P0-MbW"/>
+                        <outlet property="imgd" destination="eYm-0T-9lE" id="X2A-qp-G2j"/>
+                        <outlet property="map" destination="tlb-AP-0NX" id="JoG-GY-bxw"/>
+                        <outlet property="questionText" destination="mGl-y5-Pv8" id="iQt-cw-s8n"/>
+                        <outlet property="scoreDisplay" destination="F7X-lm-C5c" id="DOM-ta-XGd"/>
+                        <outlet property="timeDisplay" destination="cxi-R3-rn1" id="VZX-CS-cm2"/>
+                        <outlet property="unitDisplay" destination="uTB-UC-G4I" id="U4E-sK-NHV"/>
+                        <segue destination="VWA-bi-cmH" kind="show" identifier="StatesQuestiontoTestResultSb" id="Qam-kh-R5f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hFf-CS-rNK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3.75" y="167.95774647887325"/>
+        </scene>
+        <!--TestResultSb-->
+        <scene sceneID="m7M-ea-JFe">
+            <objects>
+                <viewControllerPlaceholder storyboardName="TestResultSb" id="VWA-bi-cmH" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y0f-Iy-a5v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="562" y="167"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="b_meck" width="60" height="65"/>
+        <image name="b_niedersa" width="60" height="69"/>
+        <image name="b_nrw" width="60" height="69"/>
+        <image name="b_saarl" width="60" height="74"/>
+        <image name="icon_back" width="128" height="128"/>
+        <image name="icon_next" width="64" height="64"/>
+        <image name="m448" width="182" height="150"/>
+    </resources>
+</document>
